@@ -46,6 +46,9 @@ class Main {
       case "primavera":
         System.out.println("primavera");
         break;
+      default:
+        System.out.println("no es ninguna de las estaciones, como jamas vas a estar en ninguna o en cero estacion al año, este codigo jamas se ejecutara");
+        break;
       
     }
   }
